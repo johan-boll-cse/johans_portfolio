@@ -1,0 +1,43 @@
+.Overall-Header {
+    display: flex;
+    flex-direction: row;
+}
+
+.Header-Space {
+    position: fixed;
+    top: 30px;
+    width: 20%;
+    height: 100vh;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: dimgrey;
+}
+
+.Button-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#progress-bar {
+    width: 100vw;
+    height: 30px;
+    position: fixed;
+}
+
+#header-button {
+    font-size: x-large;
+    color: white;
+    background-color: black;
+    outline: none;
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+}
+
+#header-button:hover {
+    background-color: white;
+    color: black;
+}

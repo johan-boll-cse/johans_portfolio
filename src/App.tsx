@@ -12,32 +12,23 @@ interface AppState {
 
 class App extends Component<{}, AppState> {
 
-  constructor(props: any) {
-    super(props);
-    let tmpRefs : any[] = [];
-      for (let i = 0; i < 5; i++) {
-        let ref = React.createRef();
-        tmpRefs.push(ref)
-      }
-    this.state = {
-        text: "text",
-        headerRefs : tmpRefs,
+    constructor(props: any) {
+        super(props);
+        let tmpRefs : any[] = [];
+        for (let i = 0; i < 5; i++) {
+            let ref = React.createRef();
+            tmpRefs.push(ref)
+        }
+        this.state = {
+            text: "text",
+            headerRefs : tmpRefs,
+        }
+        document.title = "Johan's Portfolio";
     }
-    document.title = "Johan's Portfolio";
 
-  }
-
-  componentDidMount(): void {
-      //document.title = "Johan's Portfolio"
-  }
-
-  buttonPressed(index : number): void {
+    buttonPressed(index : number): void {
         window.scrollTo(0, this.state.headerRefs[index].current.offsetTop - 30);
-  }
-
-  //generateHomeHtml = () => {
-
-  //}
+    }
 
     render() {
         return (

@@ -117,7 +117,17 @@ class App extends Component<{}, AppState> {
                             </p>
                             <div className="Section-Body">
                                 <p>
-                                    Completed Course Work:
+                                    Computer Languages:
+                                </p>
+                                <ul>
+                                    <li>Java : 2 Years</li>
+                                    <li>C : 1 Year</li>
+                                    <li>Javascript : 6 Months</li>
+                                    <li>C++ : 6 Months</li>
+                                    <li>Python : 3 Months</li>
+                                </ul>
+                                <p>
+                                    Completed Course Work:3
                                 </p>
                                 <p>
                                     Computer Science:
@@ -133,7 +143,7 @@ class App extends Component<{}, AppState> {
                                     <li>Systems Programming</li>
                                 </ul>
                                 <p>
-                                    Mathematics
+                                    Mathematics:
                                 </p>
                                 <ul>
                                     <li>Calculus I, II, III</li>

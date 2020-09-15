@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './HeaderBar.css';
 
-const titles : string[] = ["Home", "Portfolio", "Skills", "About", "Contact"];
+const titles : string[] = ["Home", "Projects", "Skills", "About"];
 
 interface HeaderBarProps {
     buttonPressed(button: any): void;
@@ -60,7 +60,7 @@ class HeaderBar extends Component<HeaderBarProps, HeaderBarState> {
 
     render() {
         let buttons : any[] = [];
-        for (let i = 0; i < 5; i++) {
+        for (let i = 0; i < 4; i++) {
             buttons.push(
                 <button id="header-button" onClick={() => this.handleButtonClick(i)}>
                     {titles[i]}

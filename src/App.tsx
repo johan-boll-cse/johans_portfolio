@@ -53,7 +53,7 @@ class App extends Component<{}, AppState> {
                             </p>
                             <div className="Section-Body">
                                 <p>
-                                    Hello, and welcome to my portfolio website. My name is Johan Boll, and I am a Senior at the University of Washington pursuing a degree in Computer Science. I am seeking 2021 summer internships or other opportunities.
+                                    Hello, and welcome to my portfolio website. My name is Johan Boll, and I am a Senior at the University of Washington pursuing a degree in Computer Science. I am seeking a summer 2021 internship or other software opportunities.
                                 </p>
                                 <div className="Logo-Container">
                                     <div className="Logo-Item">
@@ -124,13 +124,32 @@ class App extends Component<{}, AppState> {
                                 <p id="title-text">
                                     Computer Languages:
                                 </p>
-                                <ul>
-                                    <li>Java : 2 Years</li>
-                                    <li>C : 1 Year</li>
-                                    <li>Typescript / Javascript : 6 Months</li>
-                                    <li>C++ : 6 Months</li>
-                                    <li>Python : 3 Months</li>
-                                </ul>
+                                <table id="table">
+                                    <tr>
+                                        <th>Language</th>
+                                        <th>Experience</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Java</td>
+                                        <td>2 Years</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C</td>
+                                        <td>1 Year</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Typescript / Javascript</td>
+                                        <td>6 Months</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C++</td>
+                                        <td>6 Months</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Python</td>
+                                        <td>3 Months</td>
+                                    </tr>
+                                </table>
                                 <p id="title-text">
                                     Completed Course Work:
                                 </p>
@@ -162,7 +181,7 @@ class App extends Component<{}, AppState> {
                                 About
                             </p>
                             <div className="Section-Body">
-                                <p>I grew up in Moscow, a small town in Northern Idaho. My freshman year I was directly admitted into the UW Material Science program. After 2 years of pursuing a Material Science degree I applied and was admitted into the Paul Allen School of Computer Science and Engineering at UW. This summer I am working at the Priest Lake Golf Course.</p>
+                                <p>I grew up in Moscow, a small town in Northern Idaho. My freshman year at the University of Washington I was directly admitted into the UW Material Science program. After 2 years of pursuing a Material Science degree, I applied and was admitted into the Paul Allen School of Computer Science and Engineering.  This summer I am working at the Priest Lake Golf Course in Northern Idaho.</p>
                                 <div className="Photo-Container">
                                     <img id="photo" src={personalPhoto} alt= "Johan Boll">
                                     </img>

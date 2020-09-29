@@ -87,7 +87,7 @@ class App extends Component<{}, AppState> {
                                         <form action="https://afl-fantasy-app.netlify.app/" target="_new">
                                             <button id="app-photo-linked" type="submit"/>
                                         </form>
-                                        <p id="body-text"> AFL Fantasy is a web app and personal project coded in React using Typescript that allows users to create a simple account with their name and play fantasy Australian Football. Much like American Fantasy Football, users pick players for their team each week and are awarded points based on their players' performance.</p>
+                                        <p id="body-text"> AFL Fantasy is a web app and personal project coded in React using Typescript that allows users to create a simple account with their name and play fantasy Australian Football. Much like American Fantasy Football, users pick players for their team each week and are awarded points based on their players' performance. Click the photo on the left to view.</p>
                                     </div>
                                 </div>
                                 <div className="Grey-Background">
@@ -95,7 +95,7 @@ class App extends Component<{}, AppState> {
                                     <div className="Body-Item">
                                         <img id="app-photo" src={huskyMapsPhoto} alt= "Johan Boll">
                                         </img>
-                                        <p id="body-text"> Husky Maps is a school project coded in Java in React using Typescript that allows users to map between locations on the UW campus. This was a full-stack project, and I created back-end functionality in Java by creating my own Graph ADT and implemented Dijkstra’s graph pathfinding. I then built a GUI in React using Typescript. This app transfers data between Java and React through a server created using Spark.</p>
+                                        <p id="body-text"> Husky Maps is a school project coded in Java in React using Typescript that allows users to map between locations on the UW campus. This was a full-stack project, and I created back-end functionality in Java by implementing my own Graph ADT and Dijkstra’s graph path-finding algorithm. I then built a GUI in React using Typescript. This app transfers data between Java and React through a server created using Spark.</p>
                                     </div>
                                 </div>
                                 <div className="Grey-Background">

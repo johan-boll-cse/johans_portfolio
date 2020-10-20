@@ -7,6 +7,7 @@ import personalPhoto from './Pictures/JohanPicture.jpeg';
 import huskyMapsPhoto from './Pictures/CampusMaps.png';
 import seamCarvingPhoto from './Pictures/SeamCarving.png';
 import searchEnginePhoto from './Pictures/SearchEngine.png';
+import unbored from './Pictures/unbored.png';
 
 interface AppState {
   text: string;
@@ -37,7 +38,7 @@ class App extends Component<{}, AppState> {
         return (
             <div className="Overall-App">
                 <HeaderBar
-                    buttonPressed={(button : any) => this.buttonPressed(button)}
+                    buttonPressed={(index : number) => this.buttonPressed(index)}
                 >
                 </HeaderBar>
                 <div className="App-Container">
@@ -57,20 +58,19 @@ class App extends Component<{}, AppState> {
                                 </p>
                                 <div className="Logo-Container">
                                     <div className="Logo-Item">
-                                        <form action="https://www.linkedin.com/in/johan-boll-10101/" target="_new">
-                                            <button id="linkedIn" type="submit"/>
-                                        </form>
-                                        <p>
-                                            LinkedIn
-                                        </p>
-                                    </div>
-                                    <div className="Logo-Item">
                                         <form action={require("./Pictures/Resume.pdf")} target="_new">
                                             <button id="resume" type="submit"/>
                                         </form>
-                                        <p>
-                                            Resume
-                                        </p>
+                                    </div>
+                                    <div className="Logo-Item">
+                                        <form action="https://www.linkedin.com/in/johan-boll-10101/" target="_new">
+                                            <button id="linkedIn" type="submit"/>
+                                        </form>
+                                    </div>
+                                    <div className="Logo-Item">
+                                        <form action="https://github.com/johan-boll-cse/" target="_new">
+                                            <button id="github" type="submit"/>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
@@ -81,6 +81,14 @@ class App extends Component<{}, AppState> {
                             </p>
                             <div className="Section-Body">
                                 <p>Below are descriptions my projects. Linked projects are hosted online through a free service called Netlify.</p>
+                                <div className="Grey-Background">
+                                    <p id="body-title">un.bored</p>
+                                    <div className="Body-Item">
+                                        <img id="app-photo" src={unbored} alt= "Johan Boll">
+                                        </img>
+                                        <p id="body-text"> un.bored is a web app and group project coded in React using Javascript that allows users to search for activities to do. This project was coded in under 24 hours by myself, Sam Wheelock and Chris Warmuth as a submission in Dubhacks 2020. It pulls the site data from a Firestore database and allows users to upload their own activities to the database.</p>
+                                    </div>
+                                </div>
                                 <div className="Grey-Background">
                                     <p id="body-title">AFL Fantasy App</p>
                                     <div className="Body-Item">
@@ -95,7 +103,7 @@ class App extends Component<{}, AppState> {
                                     <div className="Body-Item">
                                         <img id="app-photo" src={huskyMapsPhoto} alt= "Johan Boll">
                                         </img>
-                                        <p id="body-text"> Husky Maps is a school project coded in Java in React using Typescript that allows users to map between locations on the UW campus. This was a full-stack project, and I created back-end functionality in Java by implementing my own Graph ADT and Dijkstra’s graph path-finding algorithm. I then built a GUI in React using Typescript. This app transfers data between Java and React through a server created using Spark.</p>
+                                        <p id="body-text"> Husky Maps is a school project coded in React using Typescript that allows users to map between locations on the UW campus. This was a full-stack project, and I created back-end functionality in Java by implementing my own Graph ADT and Dijkstra’s graph path-finding algorithm. I then built a GUI in React using Typescript. This app transfers data between Java and React through a server created using Spark.</p>
                                     </div>
                                 </div>
                                 <div className="Grey-Background">
@@ -165,6 +173,8 @@ class App extends Component<{}, AppState> {
                                     <li>Data Structures and Parallelism</li>
                                     <li>Software Design and Implementation</li>
                                     <li>Systems Programming</li>
+                                    <li>Data Visualization</li>
+                                    <li>Computer Graphics</li>
                                 </ul>
                                 <p>
                                     Mathematics:

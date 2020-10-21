@@ -48,10 +48,11 @@ class HeaderBar extends Component<HeaderBarProps, HeaderBarState> {
             document.body.offsetHeight, document.documentElement.offsetHeight,
             document.body.clientHeight, document.documentElement.clientHeight
         );
+        let scrollPercentage = this.state.scrollY / (scrollHeight - window.innerHeight);
         ctx.fillStyle = "white";
         ctx.fillRect(0, 0, Math.round(canvas.width), Math.round(canvas.height));
         ctx.fillStyle = "black";
-        ctx.fillRect(0, 0, (this.state.scrollY / (scrollHeight - window.innerHeight) * canvas.width), (canvas.height));
+        ctx.fillRect(0, 0, (scrollPercentage * canvas.width), (canvas.height));
     }
 
     handleButtonClick = (index : number) => {

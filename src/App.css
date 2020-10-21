@@ -130,8 +130,8 @@ table, th, td {
 #resume {
     background-image: url("./Pictures/Resume.png");
     background-repeat: no-repeat;
-    background-size: 6vw 6vw;
-    background-position: top;
+    background-size: 5vw 5vw;
+    background-position: center;
     background-color: transparent;
     width: 6vw;
     height: 6vw;
@@ -144,7 +144,7 @@ table, th, td {
 #resume:hover {
     box-shadow: 0 1vw 1.5vw black;
     margin-top: 0;
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
 }
 
 #github {

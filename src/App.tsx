@@ -54,7 +54,7 @@ class App extends Component<{}, AppState> {
                             </p>
                             <div className="Section-Body">
                                 <p>
-                                    Hello, and welcome to my portfolio website. My name is Johan Boll, and I am a Senior at the University of Washington pursuing a degree in Computer Science. I am seeking a summer 2021 internship or other software opportunities.
+                                    Hello, and welcome to my portfolio website. My name is Johan Boll, and I am a Senior at the University of Washington pursuing a degree in Computer Science. I am seeking a summer 2021 internship or other software related opportunities.
                                 </p>
                                 <div className="Logo-Container">
                                     <div className="Logo-Item">
@@ -191,7 +191,7 @@ class App extends Component<{}, AppState> {
                                 About
                             </p>
                             <div className="Section-Body">
-                                <p>I grew up in Moscow, a small town in Northern Idaho. My freshman year at the University of Washington I was directly admitted into the UW Material Science program. After 2 years of pursuing a Material Science degree, I applied and was admitted into the Paul Allen School of Computer Science and Engineering.  This summer I am working at the Priest Lake Golf Course in Northern Idaho.</p>
+                                <p>I grew up in Moscow, a small town in Northern Idaho. My freshman year at the University of Washington I was directly admitted into the UW Material Science program. After 2 years of pursuing a Material Science degree, I applied and was admitted into the Paul Allen School of Computer Science and Engineering. My hobbies include running, chess, golf and soccer.</p>
                                 <div className="Photo-Container">
                                     <img id="photo" src={personalPhoto} alt= "Johan Boll">
                                     </img>

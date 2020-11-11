@@ -139,19 +139,19 @@ class App extends Component<{}, AppState> {
                                     </tr>
                                     <tr>
                                         <td>Java</td>
-                                        <td>2 Years</td>
+                                        <td>2.5 Years</td>
                                     </tr>
                                     <tr>
                                         <td>C</td>
-                                        <td>1 Year</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Typescript / Javascript</td>
-                                        <td>6 Months</td>
+                                        <td>1.5 Years</td>
                                     </tr>
                                     <tr>
                                         <td>C++</td>
-                                        <td>6 Months</td>
+                                        <td>1.5 Years</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Typescript / Javascript</td>
+                                        <td>1.5 Years</td>
                                     </tr>
                                     <tr>
                                         <td>Python</td>

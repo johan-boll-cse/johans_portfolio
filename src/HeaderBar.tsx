@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './HeaderBar.css';
 
-const titles : string[] = ["Home", "Projects", "Skills", "About"];
+const titles : string[] = ["Introduction", "Skills", "Projects", "About"];
 
 interface HeaderBarProps {
     buttonPressed(button: any): void;
@@ -51,7 +51,7 @@ class HeaderBar extends Component<HeaderBarProps, HeaderBarState> {
         let scrollPercentage = this.state.scrollY / (scrollHeight - window.innerHeight);
         ctx.fillStyle = "white";
         ctx.fillRect(0, 0, Math.round(canvas.width), Math.round(canvas.height));
-        ctx.fillStyle = "black";
+        ctx.fillStyle = "rgb(31, 38, 47)";
         ctx.fillRect(0, 0, (scrollPercentage * canvas.width), (canvas.height));
     }
 

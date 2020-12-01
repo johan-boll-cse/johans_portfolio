@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Helvetica, serif;
 }
 
 html {
@@ -41,14 +42,27 @@ table, th, td {
     font-size: 1.5vw;
 }
 
-.Section-Header {
-    border-top: 5px solid black;
-    margin: 10px 10px;
+.Software-Tools-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Inner-Skills-Container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5vw;
+}
+#table {
+    border: 2px solid black;
+}
+
+.Coursework {
+    margin-left: 30%;
 }
 
 .Section-Body {
+    margin-left: 1vw;
     padding-left: 5px;
-    text-indent: 3vw;
 }
 
 .Body-Item {
@@ -57,9 +71,11 @@ table, th, td {
 }
 
 .Grey-Background {
-    background-color: lightgrey;
-    padding: 10px;
-    margin: 10px;
+    background-color: rgb(210, 162, 132);
+    padding-bottom: 20px;
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 #body-title {
@@ -72,12 +88,16 @@ table, th, td {
 }
 
 #section-title {
-    margin-top: 0;
-    padding-bottom: 7px;
-    padding-left: 5px;
-    background-color: black;
+    margin: 10px 10px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    background-color: rgb(88, 100, 116);
     color: white;
     font-size: 3vw;
+}
+
+#project-title {
+    font-size: xx-large;
 }
 
 .Photo-Container {
@@ -99,6 +119,7 @@ table, th, td {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 10px;
 }
 
 #photo {
@@ -183,6 +204,7 @@ table, th, td {
     background-image: url("./Pictures/AFLApp.png");
     background-size: 35.9vw 18.8vw;
     border: 4px solid white;
+    margin-left: 3.2vw;
 }
 
 #app-photo {
@@ -198,10 +220,5 @@ table, th, td {
 
 #title-text {
     font-size: 2vw;
-    text-decoration: underline;
-}
-
-#table {
-    width: 40vw;
-    margin-left: 10vw;
+    font-weight: bold;
 }

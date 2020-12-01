@@ -1,0 +1,40 @@
+
+.Outer-Skills-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Inner-Skills-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Inner-Skills-Container-Center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.Skill-Boxes {
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid slategrey;
+    padding-left: 40px;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+
+#skills-title {
+    font-size: larger;
+    margin: 0 20px;
+}
+
+#skill-box {
+    border: 2px solid rgb(153, 123, 118);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 0 5px 5px;
+}

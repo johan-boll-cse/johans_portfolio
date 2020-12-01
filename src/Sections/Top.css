@@ -1,0 +1,90 @@
+.Picture {
+    font-size: xx-large;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../Pictures/CherryBlossoms.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: calc(100vh - 50px);
+    padding-top: 50px;
+    margin: 0;
+}
+
+.Logo-Container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logo-Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+#linkedIn {
+    background-image: url("../Pictures/linkedin.jpg");
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: center;
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    margin-top: 5px;
+}
+
+#linkedIn:hover {
+    box-shadow: 0 10px 15px black;
+    margin-top: 0;
+    transition: 0.3s;
+}
+
+#resume {
+    background-image: url("../Pictures/Resume.png");
+    background-repeat: no-repeat;
+    background-size: 65px 65px;
+    background-position: center;
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    margin-top: 5px;
+}
+
+#resume:hover {
+    box-shadow: 0 10px 15px black;
+    margin-top: 0;
+    transition: 0.3s ease-in-out;
+}
+
+#github {
+    background-image: url("../Pictures/github.png");
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position: top;
+    background-color: transparent;
+    border: none;
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 40px;
+    outline: none;
+}
+
+#github:hover {
+    box-shadow: 0 10px 15px black;
+    margin-top: 0;
+    transition: 0.3s;
+}

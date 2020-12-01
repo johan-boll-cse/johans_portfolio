@@ -1,0 +1,49 @@
+.Header-Container {
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    z-index: 100;
+    margin-bottom: 0;
+    min-width: 1200px;
+}
+
+.Header-Name {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 35%;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.Header-Title {
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Roboto Light", serif;
+}
+
+.Header-Buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    z-index: 101;
+}
+
+#button {
+    font-size: medium;
+    font-family: Helvetica, serif;
+    color: black;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    height: 60px;
+    padding: 15px 20px;
+}
+
+#button:hover {
+    border-bottom: 3px solid slategrey;
+    transition: 0.1s;
+}

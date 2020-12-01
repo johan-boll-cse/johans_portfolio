@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './Projects.css'
 
 import unbored from "../Pictures/unbored.png";
 import huskyMapsPhoto from "../Pictures/CampusMaps.png";
@@ -12,9 +13,9 @@ class Projects extends Component<{}, {}> {
         return (
             <div className="Section-Body">
                 <p id="project-title">React Projects</p>
-                <div className="Grey-Background">
+                <div className="Project-Container">
                     <p id="body-title">un.bored</p>
-                    <div className="Body-Item">
+                    <div className="Project-Item">
                         <img id="app-photo" src={unbored} alt="Johan Boll">
                         </img>
                         <p id="body-text"> un.bored is a web app and group project coded in React using Javascript that allows
@@ -22,9 +23,9 @@ class Projects extends Component<{}, {}> {
                             database and allows users to upload their own activities to the database.</p>
                     </div>
                 </div>
-                <div className="Grey-Background">
+                <div className="Project-Container">
                     <p id="body-title">AFL Fantasy App</p>
-                    <div className="Body-Item">
+                    <div className="Project-Item">
                         <form action="https://afl-fantasy-app.netlify.app/" target="_new">
                             <button id="app-photo-linked" type="submit"/>
                         </form>
@@ -34,9 +35,9 @@ class Projects extends Component<{}, {}> {
                             based on their players' performance. Click the photo on the left to view.</p>
                     </div>
                 </div>
-                <div className="Grey-Background">
+                <div className="Project-Container">
                     <p id="body-title">Husky Maps</p>
-                    <div className="Body-Item">
+                    <div className="Project-Item">
                         <img id="app-photo" src={huskyMapsPhoto} alt="Johan Boll">
                         </img>
                         <p id="body-text"> Husky Maps is a school project coded in React using Typescript that allows users to
@@ -47,9 +48,9 @@ class Projects extends Component<{}, {}> {
                     </div>
                 </div>
                 <p id="project-title">Java Projects</p>
-                <div className="Grey-Background">
+                <div className="Project-Container">
                     <p id="body-title">Seam Carving</p>
-                    <div className="Body-Item">
+                    <div className="Project-Item">
                         <img id="app-photo" src={seamCarvingPhoto} alt="Johan Boll">
                         </img>
                         <p id="body-text"> Seam Carving is a school project coded in Java that allows users to use content-aware
@@ -60,18 +61,18 @@ class Projects extends Component<{}, {}> {
                     </div>
                 </div>
                 <p id="project-title">C++ Projects</p>
-                <div className="Grey-Background">
+                <div className="Project-Container">
                     <p id="body-title">Ray Tracer</p>
-                    <div className="Body-Item">
+                    <div className="Project-Item">
                         <img id="app-photo" src={rayTracePhoto} alt="Johan Boll">
                         </img>
                         <p id="body-text"> Ray Tracer is a school project coded in C++ using the OpenGL API. Ray tracing is accomplished by sending
                         a ray out from a render camera for each pixel in the viewing box. It implements reflection, refraction, and shadow attenuation.</p>
                     </div>
                 </div>
-                <div className="Grey-Background">
+                <div className="Project-Container">
                     <p id="body-title">Search Engine</p>
-                    <div className="Body-Item">
+                    <div className="Project-Item">
                         <img id="app-photo" src={searchEnginePhoto} alt="Johan Boll">
                         </img>
                         <p id="body-text"> Search Engine is a school project coded in C++. This project has the same

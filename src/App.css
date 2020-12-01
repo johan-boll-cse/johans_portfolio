@@ -1,81 +1,68 @@
 body {
     margin: 0;
-    font-family: Helvetica, serif;
+    font-family: "Roboto Light", serif;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-table, th, td {
-    border: 1px solid black;
-    text-indent: 0;
+hr {
+    border: 1px solid slategrey;
+    margin: 5px 20vw;
 }
 
+
 .Overall-App {
+    min-width: 1200px;
 }
 
 .App-Container {
-    margin-left: 20vw;
-}
-
-.Name {
-    font-size: 3.5vw;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url("./Pictures/Mountains.jpeg");
-    background-repeat: no-repeat;
-    background-size: 80vw auto;
-    width: 80vw;
-    padding-top: 50px;
-}
-
-#name-text {
-    position: relative;
-    top: calc(7vw - 50px);
 }
 
 .Sections {
-    font-size: 1.5vw;
+    font-size: large;
 }
 
-.Software-Tools-Container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.Inner-Skills-Container {
-    display: flex;
-    flex-direction: column;
-    margin: 0 5vw;
-}
-#table {
-    border: 2px solid black;
+.Top {
+    background-color: rgb(192, 200, 213);
 }
 
-.Coursework {
-    margin-left: 30%;
+.Skills {
+    height: auto;
+    background-color: rgb(192, 200, 213);
+    padding: 20px;
+}
+
+.Projects {
+    background-color: rgb(184, 161, 158);
+}
+
+.Education {
+
+}
+
+.About {
+
+}
+
+.Contact {
+
 }
 
 .Section-Body {
-    margin-left: 1vw;
-    padding-left: 5px;
+    min-height: 300px;
+    padding: 10px;
 }
 
-.Body-Item {
-    display: flex;
-    flex-direction: row;
-}
 
-.Grey-Background {
-    background-color: rgb(210, 162, 132);
-    padding-bottom: 20px;
-    padding-top: 5px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+.Indent {
+    margin: 0 20%;
+
 }
 
 #body-title {
@@ -88,16 +75,11 @@ table, th, td {
 }
 
 #section-title {
-    margin: 10px 10px;
-    padding-bottom: 5px;
-    padding-left: 35px;
-    background-color: rgb(88, 100, 116);
-    color: white;
-    font-size: 3vw;
-}
-
-#project-title {
-    font-size: xx-large;
+    background-color: transparent;
+    font-size: x-large;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .Photo-Container {
@@ -107,95 +89,10 @@ table, th, td {
     justify-content: center;
 }
 
-.Logo-Container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.Logo-Item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 10px;
-}
-
 #photo {
     width: 30vw;
     border: 2px solid black;
     margin: 20px;
-}
-
-#linkedIn {
-    background-image: url("./Pictures/linkedin.jpg");
-    background-repeat: no-repeat;
-    background-size: 6.1vw 6.1vw;
-    background-position: center;
-    background-color: transparent;
-    width: 6vw;
-    height: 6vw;
-    outline: none;
-    border: none;
-    border-radius: 3vw;
-    margin-top: 5px;
-}
-
-#linkedIn:hover {
-    box-shadow: 0 1vw 1.5vw black;
-    margin-top: 0;
-    transition: 0.3s;
-}
-
-#resume {
-    background-image: url("./Pictures/Resume.png");
-    background-repeat: no-repeat;
-    background-size: 5vw 5vw;
-    background-position: center;
-    background-color: transparent;
-    width: 6vw;
-    height: 6vw;
-    outline: none;
-    border: none;
-    border-radius: 3vw;
-    margin-top: 5px;
-}
-
-#resume:hover {
-    box-shadow: 0 1vw 1.5vw black;
-    margin-top: 0;
-    transition: 0.3s ease-in-out;
-}
-
-#github {
-    background-image: url("./Pictures/github.png");
-    background-repeat: no-repeat;
-    background-size: 6vw 6vw;
-    background-position: top;
-    background-color: transparent;
-    border: none;
-    width: 6vw;
-    height: 6vw;
-    margin-top: 5px;
-    border-radius: 3vw;
-    outline: none;
-}
-
-#github:hover {
-    box-shadow: 0 1vw 1.5vw black;
-    margin-top: 0;
-    transition: 0.3s;
-}
-
-.Logos {
-    display: flex;
-    justify-content: center;
-}
-
-.Labels {
-    display: flex;
-    justify-content: center;
 }
 
 #app-photo-linked {
@@ -219,6 +116,11 @@ table, th, td {
 }
 
 #title-text {
-    font-size: 2vw;
+    font-size: large;
     font-weight: bold;
+}
+
+#contact-text {
+    text-align: center;
+    padding-bottom: 100px;
 }

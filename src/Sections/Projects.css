@@ -1,0 +1,20 @@
+.Project-Item {
+    display: flex;
+    flex-direction: row;
+}
+
+.Project-Container {
+    background-color: slategrey;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#project-title {
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 5%;
+}

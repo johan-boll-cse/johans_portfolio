@@ -40,18 +40,22 @@ hr {
 
 .Projects {
     background-color: rgb(184, 161, 158);
+    padding: 20px;
 }
 
 .Education {
-
+    background-color: rgb(192, 200, 213);
+    padding: 20px;
 }
 
 .About {
-
+    background-color: rgb(184, 161, 158);
+    padding: 20px;
 }
 
 .Contact {
-
+    background-color: rgb(192, 200, 213);
+    padding: 20px;
 }
 
 .Section-Body {

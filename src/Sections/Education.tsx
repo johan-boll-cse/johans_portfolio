@@ -1,14 +1,34 @@
 import React, {Component} from "react";
+import './Education.css';
+
+import UWLogo from "../Pictures/UWLogo.png";
 
 class Education extends Component<{}, {}> {
     render() {
         return (
             <div>
                 <div className="Indent">
-                    <p id="title-text">
-                        University of Washington - Bachelor of Science - Computer Science (2017-2021)
-                    </p>
-                        Completed Course Work:
+                    <div className="Education-Header">
+                        <div className="Beside">
+                            <img className="UW-Logo" src={UWLogo} alt="UW"/>
+                            <div className="Stacked">
+                                <p id="title-text">
+                                    University of Washington
+                                </p>
+                                <p id="subtitle-text">
+                                    Bachelor of Science - Computer Science
+                                </p>
+                            </div>
+                        </div>
+                        <div className="Stacked-Left">
+                            <p id = "left">
+                                2017 - 2021
+                            </p>
+                            <p id = "left">
+                                Seattle, WA
+                            </p>
+                        </div>
+                    </div>
                     <p>
                         Computer Science:
                     </p>

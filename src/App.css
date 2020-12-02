@@ -59,12 +59,6 @@ hr {
     padding: 10px;
 }
 
-
-.Indent {
-    margin: 0 20%;
-
-}
-
 #body-title {
     font-size: 2vw;
     margin-left: 50px;
@@ -93,26 +87,6 @@ hr {
     width: 30vw;
     border: 2px solid black;
     margin: 20px;
-}
-
-#app-photo-linked {
-    width: 35.9vw;
-    height: 18.8vw;
-    background-image: url("./Pictures/AFLApp.png");
-    background-size: 35.9vw 18.8vw;
-    border: 4px solid white;
-    margin-left: 3.2vw;
-}
-
-#app-photo {
-    width: 35.2vw;
-    height: 18.8vw;
-    border: 4px solid white;
-    margin-left: 3.2vw;
-}
-
-#app-photo-linked:hover {
-    border: 4px solid black;
 }
 
 #title-text {

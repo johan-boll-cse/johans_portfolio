@@ -18,3 +18,23 @@
     font-weight: bold;
     margin-left: 5%;
 }
+
+#app-photo-linked {
+    width: 35.9vw;
+    height: 18.8vw;
+    background-image: url("../Pictures/AFLApp.png");
+    background-size: 35.9vw 18.8vw;
+    border: 4px solid white;
+    margin-left: 3.2vw;
+}
+
+#app-photo {
+    width: 35.2vw;
+    height: 18.8vw;
+    border: 4px solid white;
+    margin-left: 3.2vw;
+}
+
+#app-photo-linked:hover {
+    border: 4px solid black;
+}

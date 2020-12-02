@@ -32,6 +32,7 @@ class Skills extends Component<{}, {}> {
                             <p id="skill-box">CSS</p>
                             <p id="skill-box">Git</p>
                             <p id="skill-box">OpenGL</p>
+                            <p id="skill-box">D3</p>
                         </div>
                     </div>
                 </div>

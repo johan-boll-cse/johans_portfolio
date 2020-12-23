@@ -12,13 +12,25 @@ class Projects extends Component<{}, {}> {
     render() {
         return (
             <div className="Section-Body">
+                <p id="project-title">D3 Projects</p>
+                <div className="Project-Container">
+                    <p id="body-title">Incarceration Trends in the United States</p>
+                    <div className="Project-Item">
+                        <form action="https://cse442-20f.github.io/FP-Incarceration-in-the-United-States/" target="_new">
+                            <button className="app-photo-linked" id="Incarceration" type="submit"/>
+                        </form>
+                        <p id="body-text">
+                            This was a group project created with <b>HTML</b> and <b>Javascript</b>. In this project I applied the <b>D3</b> library to create dynamic, interactive visualizations. I developed the second visualization of jail rates in the United States by year per state.
+                        </p>
+                    </div>
+                </div>
                 <p id="project-title">React Projects</p>
                 <div className="Project-Container">
                     <p id="body-title">un.bored</p>
                     <div className="Project-Item">
-                        <img id="app-photo" src={unbored} alt="Johan Boll">
+                        <img id="app-photo" src={unbored} alt="unbored">
                         </img>
-                        <p id="body-text"> un.bored is a web app and group project coded in React using Javascript that allows
+                        <p id="body-text"> un.bored is a web app and group project coded in <b>React</b> using <b>Javascript</b> that allows
                             users to search for activities to do. This project was coded in under 24 hours by my team as a submission in Dubhacks 2020. It pulls the site data from a Firestore
                             database and allows users to upload their own activities to the database.</p>
                     </div>
@@ -27,9 +39,9 @@ class Projects extends Component<{}, {}> {
                     <p id="body-title">AFL Fantasy App</p>
                     <div className="Project-Item">
                         <form action="https://afl-fantasy-app.netlify.app/" target="_new">
-                            <button id="app-photo-linked" type="submit"/>
+                            <button className="app-photo-linked" id="AFL" type="submit"/>
                         </form>
-                        <p id="body-text"> AFL Fantasy is a web app and personal project coded in React using Typescript that
+                        <p id="body-text"> AFL Fantasy is a personal web project coded in <b>React</b> using <b>Typescript</b> that
                             allows users to create a simple account with their name and play fantasy Australian Football. Much
                             like American Fantasy Football, users pick players for their team each week and are awarded points
                             based on their players' performance. Click the photo on the left to view.</p>
@@ -38,9 +50,9 @@ class Projects extends Component<{}, {}> {
                 <div className="Project-Container">
                     <p id="body-title">Husky Maps</p>
                     <div className="Project-Item">
-                        <img id="app-photo" src={huskyMapsPhoto} alt="Johan Boll">
+                        <img id="app-photo" src={huskyMapsPhoto} alt="Husky Maps">
                         </img>
-                        <p id="body-text"> Husky Maps is a school project coded in React using Typescript that allows users to
+                        <p id="body-text"> Husky Maps is school web project coded in <b>React</b> using <b>Typescript</b> that allows users to
                             map between locations on the UW campus. This was a full-stack project, and I created back-end
                             functionality in Java by implementing my own Graph ADT and Dijkstra’s graph path-finding algorithm.
                             I then built a GUI in React using Typescript. This app transfers data between Java and React through
@@ -51,7 +63,7 @@ class Projects extends Component<{}, {}> {
                 <div className="Project-Container">
                     <p id="body-title">Seam Carving</p>
                     <div className="Project-Item">
-                        <img id="app-photo" src={seamCarvingPhoto} alt="Johan Boll">
+                        <img id="app-photo" src={seamCarvingPhoto} alt="Seam Carving">
                         </img>
                         <p id="body-text"> Seam Carving is a school project coded in Java that allows users to use content-aware
                             resizing on images. It first creates a weighted, directed graph with vertices of pixels and edge
@@ -64,7 +76,7 @@ class Projects extends Component<{}, {}> {
                 <div className="Project-Container">
                     <p id="body-title">Ray Tracer</p>
                     <div className="Project-Item">
-                        <img id="app-photo" src={rayTracePhoto} alt="Johan Boll">
+                        <img id="app-photo" src={rayTracePhoto} alt="Ray Tracer">
                         </img>
                         <p id="body-text"> Ray Tracer is a school project coded in C++ using the OpenGL API. Ray tracing is accomplished by sending
                         a ray out from a render camera for each pixel in the viewing box. It implements reflection, refraction, and shadow attenuation.</p>
@@ -73,7 +85,7 @@ class Projects extends Component<{}, {}> {
                 <div className="Project-Container">
                     <p id="body-title">Search Engine</p>
                     <div className="Project-Item">
-                        <img id="app-photo" src={searchEnginePhoto} alt="Johan Boll">
+                        <img id="app-photo" src={searchEnginePhoto} alt="Search Engine">
                         </img>
                         <p id="body-text"> Search Engine is a school project coded in C++. This project has the same
                             functionality as a web search engine with a limited data set. It is built from scratch. I created my own LinkedList and HashMap implementations. This

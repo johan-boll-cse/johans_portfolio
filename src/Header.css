@@ -32,18 +32,51 @@
     z-index: 101;
 }
 
-#button {
+.Subject-Button {
     font-size: medium;
     font-family: Helvetica, serif;
     color: black;
     background-color: transparent;
-    outline: none;
     border: none;
+    border-bottom: 2px solid white;
+    outline: none;
     height: 60px;
     padding: 15px 20px;
 }
 
-#button:hover {
-    border-bottom: 3px solid slategrey;
-    transition: 0.1s;
+.Subject-Button:hover {
+    border-bottom: 2px solid slategrey;
+}
+
+.Name-Button {
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 50%;
+    margin-right: 15px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: xx-large;
+    font-family: "Roboto Light", serif;
+    transform: translate(-50%);
+}
+
+.Name-Button:hover {
+    border-bottom: 2px solid slategrey;
+}
+
+#animation-bar {
+    position: fixed;
+    width: 100vw;
+    top: 47px;
+    left: 0;
+    margin: 0;
+    border: 2px solid black;
+    z-index: 101;
+}
+
+#test {
+    position: fixed;
+    width: 100vw;
+    z-index: 102;
 }

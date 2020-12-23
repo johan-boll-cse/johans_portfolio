@@ -13,7 +13,7 @@ html {
 
 hr {
     border: 1px solid slategrey;
-    margin: 5px 20vw;
+    margin: 5px 10vw;
 }
 
 
@@ -63,16 +63,11 @@ hr {
     padding: 10px;
 }
 
-#body-title {
-    font-size: 2vw;
-    margin-left: 50px;
-}
-
 #body-text {
     margin-left: 10px;
 }
 
-#section-title {
+.Section-Title {
     background-color: transparent;
     font-size: x-large;
     margin: 0 auto;
@@ -80,17 +75,26 @@ hr {
     padding-top: 20px;
 }
 
-.Photo-Container {
+.Flex {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
+.Photo-Container {
+    margin-left: 20px;
+}
+
 #photo {
-    width: 30vw;
+    width: 400px;
     border: 2px solid black;
-    margin: 20px;
+    margin-left: 20px;
+}
+
+.About-Text {
+    display: flex;
+    margin-right: 30px;
+    margin-top: 30px;
+    width: 400px;
 }
 
 #title-text {

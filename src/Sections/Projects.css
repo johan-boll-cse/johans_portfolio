@@ -19,22 +19,36 @@
     margin-left: 5%;
 }
 
-#app-photo-linked {
-    width: 35.9vw;
-    height: 18.8vw;
-    background-image: url("../Pictures/AFLApp.png");
-    background-size: 35.9vw 18.8vw;
-    border: 4px solid white;
-    margin-left: 3.2vw;
+#body-title {
+    font-size: larger;
+    margin-left: 50px;
 }
 
 #app-photo {
-    width: 35.2vw;
-    height: 18.8vw;
+    width: calc(12vw + 350px);
+    height: calc(8vw + 150px);
     border: 4px solid white;
     margin-left: 3.2vw;
 }
 
-#app-photo-linked:hover {
+.app-photo-linked {
+    width: calc(12vw + 350px);
+    height: calc(8vw + 150px);
+    background-size: calc(12vw + 350px) calc(8vw + 150px);
+    background-repeat: no-repeat;
+    border: 4px solid white;
+    outline: none;
+    margin-left: 3.2vw;
+}
+
+.app-photo-linked:hover {
     border: 4px solid black;
+}
+
+#AFL {
+    background-image: url("../Pictures/AFLApp.png");
+}
+
+#Incarceration {
+    background-image: url("../Pictures/Incarceration.png");
 }

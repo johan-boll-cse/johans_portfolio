@@ -49,6 +49,15 @@
     background-image: url("../Pictures/AFLApp.png");
 }
 
+#SortingHat {
+    background-image: url("../Pictures/TheSortingHat.png");
+}
+
 #Incarceration {
     background-image: url("../Pictures/Incarceration.png");
+}
+
+.Image-Container {
+    width: 1000px;
+    height: calc(8vw + 150px);
 }

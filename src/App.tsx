@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import './App.css';
 
 import Header from "./Header";
-
 import personalPhoto from './Pictures/JohanPicture.jpeg';
 import Top from "./Sections/Top";
 import Projects from "./Sections/Projects";

@@ -16,11 +16,13 @@ class Projects extends Component<{}, {}> {
                 <div className="Project-Container">
                     <p id="body-title">Incarceration Trends in the United States</p>
                     <div className="Project-Item">
-                        <form action="https://cse442-20f.github.io/FP-Incarceration-in-the-United-States/" target="_new">
-                            <button className="app-photo-linked" id="Incarceration" type="submit"/>
-                        </form>
+                        <div className="Image-Container">
+                            <form action="https://cse442-20f.github.io/FP-Incarceration-in-the-United-States/" target="_new">
+                                <button className="app-photo-linked" id="Incarceration" type="submit"/>
+                            </form>
+                        </div>
                         <p id="body-text">
-                            This was a group project created with <b>HTML</b> and <b>Javascript</b>. In this project I applied the <b>D3</b> library to create dynamic, interactive visualizations. I developed the second visualization of jail rates in the United States by year per state.
+                            This was a group project created with <b>HTML</b> and <b>Javascript</b>. In this project I applied the <b>D3</b> library to create dynamic, interactive visualizations. I developed the second visualization (seen in the photo) of jail rates in the United States by year per state.
                         </p>
                     </div>
                 </div>
@@ -28,19 +30,34 @@ class Projects extends Component<{}, {}> {
                 <div className="Project-Container">
                     <p id="body-title">un.bored</p>
                     <div className="Project-Item">
-                        <img id="app-photo" src={unbored} alt="unbored">
-                        </img>
+                        <div className="Image-Container">
+                            <img id="app-photo" src={unbored} alt="unbored"/>
+                        </div>
                         <p id="body-text"> un.bored is a web app and group project coded in <b>React</b> using <b>Javascript</b> that allows
                             users to search for activities to do. This project was coded in under 24 hours by my team as a submission in Dubhacks 2020. It pulls the site data from a Firestore
                             database and allows users to upload their own activities to the database.</p>
                     </div>
                 </div>
                 <div className="Project-Container">
+                    <p id="body-title">The Sorting Hat Visualizer</p>
+                    <div className="Project-Item">
+                        <div className="Image-Container">
+                            <form action="https://the-sorting-hat-visualizer.netlify.app/" target="_new">
+                                <button className="app-photo-linked" id="SortingHat" type="submit"/>
+                            </form>
+                        </div>
+                        <p id="body-text"> The Sorting Hat is a personal web project coded in <b>React</b> using <b>Typescript</b> that
+                            allows users to visualize popular sorting algorithms, using the themes from Harry Potter. Click the photo on the left to view.</p>
+                    </div>
+                </div>
+                <div className="Project-Container">
                     <p id="body-title">AFL Fantasy App</p>
                     <div className="Project-Item">
-                        <form action="https://afl-fantasy-app.netlify.app/" target="_new">
-                            <button className="app-photo-linked" id="AFL" type="submit"/>
-                        </form>
+                        <div className="Image-Container">
+                            <form action="https://afl-fantasy-app.netlify.app/" target="_new">
+                                <button className="app-photo-linked" id="AFL" type="submit"/>
+                            </form>
+                        </div>
                         <p id="body-text"> AFL Fantasy is a personal web project coded in <b>React</b> using <b>Typescript</b> that
                             allows users to create a simple account with their name and play fantasy Australian Football. Much
                             like American Fantasy Football, users pick players for their team each week and are awarded points
@@ -50,8 +67,9 @@ class Projects extends Component<{}, {}> {
                 <div className="Project-Container">
                     <p id="body-title">Husky Maps</p>
                     <div className="Project-Item">
-                        <img id="app-photo" src={huskyMapsPhoto} alt="Husky Maps">
-                        </img>
+                        <div className="Image-Container">
+                            <img id="app-photo" src={huskyMapsPhoto} alt="Husky Maps"/>
+                        </div>
                         <p id="body-text"> Husky Maps is school web project coded in <b>React</b> using <b>Typescript</b> that allows users to
                             map between locations on the UW campus. This was a full-stack project, and I created back-end
                             functionality in Java by implementing my own Graph ADT and Dijkstra’s graph path-finding algorithm.
@@ -63,8 +81,9 @@ class Projects extends Component<{}, {}> {
                 <div className="Project-Container">
                     <p id="body-title">Seam Carving</p>
                     <div className="Project-Item">
-                        <img id="app-photo" src={seamCarvingPhoto} alt="Seam Carving">
-                        </img>
+                        <div className="Image-Container">
+                            <img id="app-photo" src={seamCarvingPhoto} alt="Seam Carving"/>
+                        </div>
                         <p id="body-text"> Seam Carving is a school project coded in Java that allows users to use content-aware
                             resizing on images. It first creates a weighted, directed graph with vertices of pixels and edge
                             weights of energy (importance) from a given picture. Then the content-aware resizing algorithm is
@@ -76,8 +95,9 @@ class Projects extends Component<{}, {}> {
                 <div className="Project-Container">
                     <p id="body-title">Ray Tracer</p>
                     <div className="Project-Item">
-                        <img id="app-photo" src={rayTracePhoto} alt="Ray Tracer">
-                        </img>
+                        <div className="Image-Container">
+                            <img id="app-photo" src={rayTracePhoto} alt="Ray Tracer"/>
+                        </div>
                         <p id="body-text"> Ray Tracer is a school project coded in C++ using the OpenGL API. Ray tracing is accomplished by sending
                         a ray out from a render camera for each pixel in the viewing box. It implements reflection, refraction, and shadow attenuation.</p>
                     </div>
@@ -85,8 +105,9 @@ class Projects extends Component<{}, {}> {
                 <div className="Project-Container">
                     <p id="body-title">Search Engine</p>
                     <div className="Project-Item">
-                        <img id="app-photo" src={searchEnginePhoto} alt="Search Engine">
-                        </img>
+                        <div className="Image-Container">
+                            <img id="app-photo" src={searchEnginePhoto} alt="Search Engine"/>
+                        </div>
                         <p id="body-text"> Search Engine is a school project coded in C++. This project has the same
                             functionality as a web search engine with a limited data set. It is built from scratch. I created my own LinkedList and HashMap implementations. This
                             search engine parses documents, stores an inverted search index on disc, creates a server which

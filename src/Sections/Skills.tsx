@@ -15,9 +15,10 @@ class Skills extends Component<{}, {}> {
                         <div className="Skill-Boxes">
                             <p id="skill-box">Java</p>
                             <p id="skill-box">Javascript</p>
-                            <p id="skill-box">C++</p>
+                            <p id="skill-box">Python</p>
                             <p id="skill-box">HTML</p>
                             <p id="skill-box">Typescript</p>
+                            <p id="skill-box">C++</p>
                             <p id="skill-box">C</p>
                         </div>
                     </div>
@@ -33,6 +34,7 @@ class Skills extends Component<{}, {}> {
                             <p id="skill-box">Git</p>
                             <p id="skill-box">OpenGL</p>
                             <p id="skill-box">D3</p>
+                            <p id="skill-box">PyTorch</p>
                         </div>
                     </div>
                 </div>

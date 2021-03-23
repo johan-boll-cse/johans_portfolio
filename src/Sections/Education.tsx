@@ -43,6 +43,9 @@ class Education extends Component<{}, {}> {
                         <li>Systems Programming</li>
                         <li>Data Visualization</li>
                         <li>Computer Graphics</li>
+                        <li>Database Management</li>
+                        <li>Algorithms</li>
+                        <li>Machine Learning</li>
                     </ul>
                     <p>
                         Mathematics:

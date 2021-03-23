@@ -12,7 +12,7 @@ class Projects extends Component<{}, {}> {
     render() {
         return (
             <div className="Section-Body">
-                <p id="project-title">D3 Projects</p>
+                <p id="project-title">Linked Projects</p>
                 <div className="Project-Container">
                     <p id="body-title">Incarceration Trends in the United States</p>
                     <div className="Project-Item">
@@ -23,19 +23,8 @@ class Projects extends Component<{}, {}> {
                         </div>
                         <p id="body-text">
                             This was a group project created with <b>HTML</b> and <b>Javascript</b>. In this project I applied the <b>D3</b> library to create dynamic, interactive visualizations. I developed the second visualization (seen in the photo) of jail rates in the United States by year per state.
+                            Click the photo on the left to view.
                         </p>
-                    </div>
-                </div>
-                <p id="project-title">React Projects</p>
-                <div className="Project-Container">
-                    <p id="body-title">un.bored</p>
-                    <div className="Project-Item">
-                        <div className="Image-Container">
-                            <img id="app-photo" src={unbored} alt="unbored"/>
-                        </div>
-                        <p id="body-text"> un.bored is a web app and group project coded in <b>React</b> using <b>Javascript</b> that allows
-                            users to search for activities to do. This project was coded in under 24 hours by my team as a submission in Dubhacks 2020. It pulls the site data from a Firestore
-                            database and allows users to upload their own activities to the database.</p>
                     </div>
                 </div>
                 <div className="Project-Container">
@@ -64,6 +53,18 @@ class Projects extends Component<{}, {}> {
                             based on their players' performance. Click the photo on the left to view.</p>
                     </div>
                 </div>
+                <p id="project-title">Unlinked Projects</p>
+                <div className="Project-Container">
+                    <p id="body-title">un.bored</p>
+                    <div className="Project-Item">
+                        <div className="Image-Container">
+                            <img id="app-photo" src={unbored} alt="unbored"/>
+                        </div>
+                        <p id="body-text"> un.bored is a web app and group project coded in <b>React</b> using <b>Javascript</b> that allows
+                            users to search for activities to do. This project was coded in under 24 hours by my team as a submission in the Dubhacks 2020 Hackathon. It pulls the site data from a Firestore
+                            database and allows users to upload their own activities to the database.</p>
+                    </div>
+                </div>
                 <div className="Project-Container">
                     <p id="body-title">Husky Maps</p>
                     <div className="Project-Item">
@@ -77,28 +78,26 @@ class Projects extends Component<{}, {}> {
                             a server created using Spark.</p>
                     </div>
                 </div>
-                <p id="project-title">Java Projects</p>
                 <div className="Project-Container">
                     <p id="body-title">Seam Carving</p>
                     <div className="Project-Item">
                         <div className="Image-Container">
                             <img id="app-photo" src={seamCarvingPhoto} alt="Seam Carving"/>
                         </div>
-                        <p id="body-text"> Seam Carving is a school project coded in Java that allows users to use content-aware
+                        <p id="body-text"> Seam Carving is a school project coded in <b>Java</b> that allows users to use content-aware
                             resizing on images. It first creates a weighted, directed graph with vertices of pixels and edge
                             weights of energy (importance) from a given picture. Then the content-aware resizing algorithm is
                             run on the graph using an A* shortest path algorithm to find and then remove the seam of least
                             importance. </p>
                     </div>
                 </div>
-                <p id="project-title">C++ Projects</p>
                 <div className="Project-Container">
                     <p id="body-title">Ray Tracer</p>
                     <div className="Project-Item">
                         <div className="Image-Container">
                             <img id="app-photo" src={rayTracePhoto} alt="Ray Tracer"/>
                         </div>
-                        <p id="body-text"> Ray Tracer is a school project coded in C++ using the OpenGL API. Ray tracing is accomplished by sending
+                        <p id="body-text"> Ray Tracer is a school project coded in <b>C++</b> using the OpenGL API. Ray tracing is accomplished by sending
                         a ray out from a render camera for each pixel in the viewing box. It implements reflection, refraction, and shadow attenuation.</p>
                     </div>
                 </div>
@@ -108,7 +107,7 @@ class Projects extends Component<{}, {}> {
                         <div className="Image-Container">
                             <img id="app-photo" src={searchEnginePhoto} alt="Search Engine"/>
                         </div>
-                        <p id="body-text"> Search Engine is a school project coded in C++. This project has the same
+                        <p id="body-text"> Search Engine is a school project coded in <b>C++</b>. This project has the same
                             functionality as a web search engine with a limited data set. It is built from scratch. I created my own LinkedList and HashMap implementations. This
                             search engine parses documents, stores an inverted search index on disc, creates a server which
                             accepts client connections, and produces search results from search queries.</p>

@@ -14,11 +14,34 @@
     margin: 0;
 }
 
+.Welcome-Text {
+    animation: fade-in 2s ease;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes move-up {
+    from {
+        margin-top: 100px;
+    }
+    to {
+        margin-top: 0;
+    }
+}
+
 .Logo-Container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    animation: fade-in 2s ease;
 }
 
 .Logo-Item {
@@ -27,6 +50,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 30px;
+    animation: move-up 2s ease;
 }
 
 #linkedIn {

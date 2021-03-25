@@ -5,7 +5,7 @@ class Top extends Component<{}, {}> {
     render() {
         return (
             <div className="Picture">
-                <p>
+                <p className="Welcome-Text">
                     Welcome to my Computer Science Portfolio
                 </p>
                 <div className="Logo-Container">
